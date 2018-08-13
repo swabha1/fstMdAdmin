@@ -10,7 +10,7 @@ class Slider extends MY_Controller {
                 $this->load->helper('login_helper'); 
     }
     
-/* ========== Zip Code ==========*/
+/* ========== Slider Code ==========*/
 public function index()
 {
 	       $data["error"] = "";
@@ -129,6 +129,6 @@ public function index()
                 redirect("slider/index");
            }
     } 
-/* ========== Zip Code ==========*/  
+/* ========== Slider Code ==========*/  
   
 }
